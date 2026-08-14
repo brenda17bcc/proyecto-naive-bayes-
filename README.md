@@ -1,42 +1,42 @@
-# 💬 Clasificador de Reseñas con Naive Bayes
+# 💬 Review Sentiment Classifier with Naive Bayes
 
-Proyecto de **procesamiento de lenguaje natural (NLP)** y clasificación de texto. Se construye un modelo de *machine learning* con el algoritmo **Naive Bayes** para analizar el sentimiento de reseñas de aplicaciones de la Google Play Store y predecir si un comentario es **positivo o negativo**.
+A **natural language processing (NLP)** and text classification project. It builds a **Naive Bayes** machine learning model to analyze the sentiment of Google Play Store app reviews and predict whether a comment is **positive or negative**.
 
-## 🎯 Objetivo
+## 🎯 Goal
 
-Entrenar un clasificador capaz de determinar automáticamente la polaridad (positiva o negativa) de una reseña a partir de su texto.
+Train a classifier that can automatically determine the polarity (positive or negative) of a review based on its text.
 
-## 🔧 Proceso
+## 🔧 Process
 
-- **Exploración del dataset** de reseñas etiquetadas (positivas / negativas).
-- **Preprocesamiento del texto** para dejarlo listo para el modelo.
-- **Vectorización** del texto (convertir palabras en datos numéricos).
-- **Entrenamiento** de un modelo Naive Bayes con datos de train y test.
-- **Evaluación** del rendimiento del modelo (precisión y métricas).
+- **Dataset exploration** of labeled reviews (positive / negative).
+- **Text preprocessing** to prepare the data for the model.
+- **Text vectorization** (converting words into numerical data).
+- **Training** a Naive Bayes model with train and test data.
+- **Evaluation** of model performance (accuracy and metrics).
 
-## 🛠️ Tecnologías
+## 🛠️ Tech Stack
 
 - **Python**
-- **scikit-learn** (modelo Naive Bayes)
-- **pandas** (manejo de datos)
+- **scikit-learn** (Naive Bayes model)
+- **pandas** (data handling)
 - **Jupyter Notebook**
 
-## 📚 Conceptos practicados
+## 📚 Concepts Practiced
 
-- Clasificación de texto y análisis de sentimiento
-- Preprocesamiento y vectorización de texto (NLP)
-- Entrenamiento y evaluación de modelos de machine learning
-- División de datos en train/test
+- Text classification and sentiment analysis
+- Text preprocessing and vectorization (NLP)
+- Training and evaluating machine learning models
+- Train/test data splitting
 
-## 🚀 Cómo ejecutarlo
+## 🚀 How to Run
 
-1. Clona el repositorio:
+1. Clone the repository:
 ```bash
    git clone https://github.com/brenda17bcc/proyecto-naive-bayes-.git
 ```
-2. Abre el notebook (`.ipynb`) en Jupyter Notebook o en GitHub Codespaces.
-3. Ejecuta las celdas en orden.
+2. Open the notebook (`.ipynb`) in Jupyter Notebook or GitHub Codespaces.
+3. Run the cells in order.
 
 ---
 
-Proyecto realizado como parte del bootcamp de **Data Science & Machine Learning** en 4Geeks Academy.
+Project completed as part of the **Data Science & Machine Learning** bootcamp at 4Geeks Academy.
